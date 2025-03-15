@@ -3,5 +3,5 @@
 
 **Usage:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/MrAriaNet/fix-centos7-repository/refs/heads/main/main.sh)
+bash <(curl -s https://raw.githubusercontent.com/MrAriaNet/fix-centos7-repository/main/main.sh)
 ```
