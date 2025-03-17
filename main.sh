@@ -8,7 +8,7 @@ curl -4 https://raw.githubusercontent.com/MrAriaNet/fix-centos7-repository/main/
 
 if [[ -f /etc/yum.repos.d/epel.repo ]]; then
     sed -i 's|^metalink=|#metalink=|' /etc/yum.repos.d/epel.repo
-    sed -i 's|^#baseurl=.*|baseurl=https://mirrors.vcea.wsu.edu/centos-vault/epel-7/|' /etc/yum.repos.d/epel.repo
+    sed -i 's|^#baseurl=.*|baseurl=https://el7.repo.almalinux.org/epel/7/|' /etc/yum.repos.d/epel.repo
     echo "epel.repo is fixed ..."
 fi
 
